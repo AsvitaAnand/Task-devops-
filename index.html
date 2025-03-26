@@ -3,22 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Simple Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 50px;
-        }
-        h1 {
-            color: #007bff;
-        }
-    </style>
+    <title>Pet Shop - Home</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-    <h1>Welcome to My Simple HTML Page</h1>
-    <p>This is a basic HTML file with some inline CSS.</p>
-
+    <header>
+        <h1>Welcome to Happy Paws Pet Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Pets</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <img src="hero.jpg" alt="Cute puppies and kittens">
+        <h2>Your One-Stop Shop for Happy and Healthy Pets!</h2>
+    </section>
+    
+    <section class="featured-pets">
+        <h2>Meet Our Adorable Pets</h2>
+        <div class="pet-gallery">
+            <div class="pet"><img src="dog.jpg" alt="Cute Dog"><p>Friendly Puppy</p></div>
+            <div class="pet"><img src="cat.jpg" alt="Cute Cat"><p>Lovely Kitten</p></div>
+            <div class="pet"><img src="bird.jpg" alt="Colorful Bird"><p>Chirpy Parrot</p></div>
+        </div>
+    </section>
+    
+    <section class="services">
+        <h2>Our Services</h2>
+        <ul>
+            <li>Pet Grooming</li>
+            <li>Veterinary Checkups</li>
+            <li>Pet Adoption</li>
+            <li>Pet Accessories & Food</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>Contact us at (123) 456-7890 | Visit us at 123 Pet Street, Petville</p>
+    </footer>
 </body>
 </html>
+
